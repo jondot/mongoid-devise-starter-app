@@ -22,4 +22,7 @@ Just clone, run `bundle install` followed by `terminitor start` (did you not get
 
 PS, if you care, remember to replace `MongoidDeviseStarterApp` const around the app.
 
+Notes
+-----
 
+As I tried to make this suitable both for Linux and Windows development, you'll find a hint of Win32 in the Termfile and *.bat files. other than that the project was mostly built on Linux. You're welcome to remove those parts that you don't like.
