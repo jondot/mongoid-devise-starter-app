@@ -1,0 +1,109 @@
+/* line 7, ../src/ie.scss */
+body > div {
+  text-align: center;
+}
+/* line 44, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+* html body > div legend {
+  margin: 0px -8px 16px 0;
+  padding: 0;
+}
+/* line 48, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+html > body > div p code {
+  *white-space: normal;
+}
+/* line 60, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div .container {
+  text-align: left;
+}
+/* line 62, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div sup {
+  vertical-align: text-top;
+}
+/* line 64, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div sub {
+  vertical-align: text-bottom;
+}
+/* line 66, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div hr {
+  margin: -8px auto 11px;
+}
+/* line 68, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div img {
+  -ms-interpolation-mode: bicubic;
+}
+/* line 70, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div fieldset {
+  padding-top: 0;
+}
+/* line 72, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div legend {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+  margin-left: -0.5em;
+}
+/* line 76, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div fieldset, body > div #IE8#HACK {
+  padding-top: 1.4em;
+}
+/* line 77, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div legend, body > div #IE8#HACK {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 78, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div textarea {
+  overflow: auto;
+}
+/* line 80, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div label {
+  position: relative;
+  top: -0.25em;
+}
+/* line 84, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.text {
+  margin: 0.5em 0;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+}
+/* line 88, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.text:focus {
+  border: 1px solid #666666;
+}
+/* line 90, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.title {
+  margin: 0.5em 0;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+}
+/* line 94, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.title:focus {
+  border: 1px solid #666666;
+}
+/* line 96, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.checkbox {
+  position: relative;
+  top: 0.25em;
+}
+/* line 99, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.radio {
+  position: relative;
+  top: 0.25em;
+}
+/* line 102, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div input.button {
+  position: relative;
+  top: 0.25em;
+}
+/* line 105, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div textarea {
+  margin: 0.5em 0;
+}
+/* line 107, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div select {
+  margin: 0.5em 0;
+}
+/* line 109, ../../../../../Users/Dotan/.pik/rubies/Ruby-192dev-preview3-1/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body > div button {
+  position: relative;
+  top: 0.25em;
+}

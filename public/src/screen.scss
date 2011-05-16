@@ -1,0 +1,86 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import "compass/reset";
+@import "compass/css3";
+@include reset-html5;
+
+
+// Import all the default blueprint modules so that we can access their mixins.
+@import "blueprint";
+
+
+
+$blueprint-font-size: 12px;
+
+body {
+  @include blueprint-typography(true);
+  @include blueprint-utilities;
+  @include blueprint-debug;
+  @include blueprint-interaction;
+}
+#spinner { display:none;}
+// To configure blueprint, edit the partials/base.sass file.
+@import "partials/base";
+@import "partials/gh-buttons";
+
+
+form {
+  @include blueprint-form; }
+
+// Page layout can be done using mixins applied to your semantic classes and IDs:
+body > div.container {
+  @include container;
+}
+
+header,footer {
+  @include column($blueprint-grid-columns);
+  padding-top:2em;
+}
+
+div.container > section {
+  @include column($blueprint-grid-columns); 
+  padding-top:3em;
+}
+
+/*** navigation ***/
+header > nav{
+  @include column(8); 
+  @include last;
+
+  li#user{
+    position:relative;
+    > a{
+      font-weight:bold;
+    }
+    
+  }
+  
+  li#user:hover #mini-profile{
+    display:block;
+  }
+
+  ul {
+    @include reset-list-style;
+    padding:0;
+    margin:0;
+    li{
+      display:inline;
+    }
+  }
+}
+#mini-profile{
+  position:absolute;
+  margin-top:-2px;
+  background:#eee;
+  display:none;
+  z-index:999;
+  width:150px;
+  img{
+    float:left;
+  }
+}
+
+
+header > aside{
+  @include column(16);
+}
+

@@ -1,0 +1,27 @@
+window :name=>'mongo', :bounds=>[80,20] do
+  run 'start_mongo.bat'
+end
+
+window :name=>'redis', :bounds=>[80,20] do
+  run 'start_redis.bat'
+end
+
+window :name=>'spork', :bounds=>[80,20] do
+  run 'pik use ruby 192'
+  run 'bundle exec spork'
+end
+
+window :name=>'rails', :bounds=>[80,20] do
+  run 'pik use ruby 192'
+  run 'rails s'
+end
+
+window :name=>'compass', :bounds=>[80,20] do
+  run 'pik use ruby 192'
+  run 'cd public'
+  run 'compass watch'
+end
+
+run 'pik use ruby 192'
+run 'gvim'
+
